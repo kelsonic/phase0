@@ -1,4 +1,5 @@
 ![Sitemap image](/week-2/imgs/sitemap.png)
+(Contact page will be on the bottom of landing (home) page.
 
 **What are the 6 Phases of Web Design?**
 

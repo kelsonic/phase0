@@ -1,0 +1,39 @@
+h1,h2,h3,p,li {
+     color: #000080;
+}
+
+a {
+  color: #800080;
+}
+
+a:visited {
+  color: #ff0000;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.small-letters {
+  font-size: .5em;
+}
+
+.smallest-letters {
+  font-size: 0.3em;
+}
+
+.line {
+  width: 100%;
+  border-bottom: 1px solid #999;
+}
+
+table {
+	border: 0;
+	width: 90%;	
+}
+
+td{
+	height: 55px; 
+	vertical-align: top;
+	width: 50%; 
+}

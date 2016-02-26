@@ -1,4 +1,4 @@
-![Challenge 1](/imgs/Challenge1.png)
+![Challenge 1](/week-3/imgs/Challenge1.png)
 
 #Reflection Questions
 **How can you use Chrome's DevTools inspector to help you format or position elements?**

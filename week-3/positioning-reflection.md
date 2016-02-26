@@ -1,4 +1,12 @@
 ![Challenge 1](/week-3/imgs/Challenge1.png)
+![Challenge 2](/week-3/imgs/challenge_2.png)
+![Challenge 3](/week-3/imgs/Challenge_3.png)
+![Challenge 4](/week-3/imgs/Challenge_4.png)
+![Challenge 5](/week-3/imgs/Challenge_5.png)
+![Challenge 6](/week-3/imgs/Challenge_6.png)
+![Challenge 7](/week-3/imgs/Challenge_7.png)
+![Challenge 8](/week-3/imgs/Challenge_8.png)
+![Challenge 9](/week-3/imgs/Challenge_9.png)
 
 #Reflection Questions
 **How can you use Chrome's DevTools inspector to help you format or position elements?**

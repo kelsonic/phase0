@@ -1,5 +1,26 @@
+/*What is important to know when linking an external file (like a stylesheet) to an HTML file?*/
+
+/*To link to a stylesheet from an HTML file, inside of your head tag you should add a <link> tag that uses rel= (which stands for relationship), type= (which declares the type of file, in this case a text/css file), and ahref= (which is the path to the link).*/
+
+/*What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?*/
+
+/*We originally just had a <ul> tag with multiple <li> tags underneathe it, but we soon realized that to mimic the website we needed to do something different. We used Chrome DevTools to inspect the original website and we mimicked their HTML structure and added their styles inside of our CSS.*/
+
+/*What CSS did you use to modify the element style (like size, color, etc.)*/
+
+/*You can look below to see the CSS that we used. The key value pairs we used were color, background-color, font-size, width, border-bottom, border, height, and vertical-align.*/
+
+/*Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?*/
+
+/*Yes. As suggested by the assignment videos, we decided not to make IDs as it is difficult to scale later on. The classes we used were .small-letters, .smallest-letters, and .line. We chose these to control the title font-size as well as the font size underneathe the geico logo.*/
+
+/*When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?*/
+
+/*We definitely had cleaner code. When inspecting the original website with Chrome DevTools, their HTML structure included style=, which is typically not good practice for websites (we used a separate CSS file, which is easier to manipulate in the future).*/
+
+
 h1,h2,h3,p,li {
-     color: #000080;
+  color: #000080;
 }
 
 a {

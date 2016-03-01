@@ -20,5 +20,3 @@ def leap_year?(input)
     p false
   end
 end
-
-leap_year?(2015)

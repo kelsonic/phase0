@@ -13,3 +13,27 @@ puts "What's your favorite number?"
 fav_num = gets.chomp.to_i
 new_num = fav_num + 1
 puts "Nice! But don't you think #{new_num} is a bigger and better number?"
+
+# Reflection Questions for 4.3
+# How do you define a local variable?
+
+
+
+# How do you define a method?
+
+
+
+# What is the difference between a local variable and a method?
+
+
+
+# How do you run a ruby program from the command line?
+
+
+
+# How do you run an RSpec file from the command line?
+
+
+
+# What was confusing about this material? What made sense?
+

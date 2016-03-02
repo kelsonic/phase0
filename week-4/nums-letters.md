@@ -55,7 +55,7 @@ Integers are whole numbers (that also include negative numbers) whereas floats a
 ```
 2.0 #float
 2 #integer
-```
+``` 
 
 **What is the difference between integer and float division?**
 

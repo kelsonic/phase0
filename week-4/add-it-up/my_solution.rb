@@ -43,18 +43,18 @@ end
 # End the method
 
 # 5. sentence_maker initial solution
-# def sentence_maker(string_array)
+def sentence_maker(string_array)
   
-#   string = ""
-#   string_array.each do |x|
-#     if x == string_array.last
-#       string = string + x.to_s
-#     else
-#       string = string + x.to_s + ' '
-#     end
-#   end
-#   p string.capitalize! + '.'
-# end
+  string = ""
+  string_array.each do |x|
+    if x == string_array.last
+      string = string + x.to_s
+    else
+      string = string + x.to_s + ' '
+    end
+  end
+  p string.capitalize! + '.'
+end
 
 # 6. sentence_maker refactored solution
 def sentence_maker(string_array)

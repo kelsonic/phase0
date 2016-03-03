@@ -20,7 +20,24 @@
 # end
 
 # Refactored
+# def largest_integer(list_of_nums)
+#   p nil if list_of_nums == nil
+#   p list_of_nums.sort.last if list_of_nums != nil
+# end
+
+# Second Solution
 def largest_integer(list_of_nums)
-  p nil if list_of_nums == nil
-  p list_of_nums.sort.last if list_of_nums != nil
+  if list_of_nums == []
+    p nil
+  else
+    max_num = nil
+    list_of_nums.each do |num|
+      if max_num == nil
+        max_num = num
+      else
+        max_num = num if (num > max_num)
+      end
+    end
+    p max_num
+  end
 end

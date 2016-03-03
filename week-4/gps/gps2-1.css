@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico|Open+Sans+Condensed:300);
+
+h1, h2 {
+  font-family: 'Pacifico', cursive;
+}
+
+header {
+  color: white;  
+  background-color: blue;
+  padding: .5em;
+}
+
+p, footer {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+header p {
+  font-size: 1.25em;
+}
+
+section {
+  background-color: #EAEAEA;
+  width: 50%; 
+  display: table-cell;
+  position: relative;
+  box-sizing: border-box;
+  padding: 1em;
+}
+.column-1 {
+  float: left;
+}
+
+.column-2 {
+  float: right;
+}
+
+footer {
+  clear: both;
+  background-color: #999;
+  text-align: center;
+}

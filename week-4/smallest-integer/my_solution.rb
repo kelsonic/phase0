@@ -15,6 +15,6 @@ def smallest_integer(list_of_nums)
   if list_of_nums == nil
     p nil
   else
-    p list_of_nums.min
+    list_of_nums.sort.first
   end
 end

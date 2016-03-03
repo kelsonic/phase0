@@ -22,5 +22,5 @@
 # Refactored
 def largest_integer(list_of_nums)
   p nil if list_of_nums == nil
-  p list_of_nums.max if list_of_nums != nil
+  p list_of_nums.sort.last if list_of_nums != nil
 end

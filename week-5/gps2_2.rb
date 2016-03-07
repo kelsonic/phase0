@@ -101,3 +101,32 @@ add_item('banana', 4, my_cart)
 remove_item('banana', my_cart)
 update_item('potatoes', 10, my_cart)
 display_cart(my_cart)
+
+# What did you learn about pseudocode from working on this challenge?
+
+# Pseudocode really helps you write your code fast since you typically have done the hard part before
+# you start coding (which is creating the structure.)
+
+# What are the tradeoffs of using Arrays and Hashes for this challenge?
+
+# If you use arrays you would have to keep two separate lists and perhaps even sync their length
+# so that their quantities and products can be connected. Hashes are much easier for 
+# this exercise since the keys can be the products and the values can be the quantities.
+
+# What does a method return?
+
+# It depends on what you ask it to return. It could be nothing if you don't put anything in
+# your method. Or it could be a ton of things. (A bit of a broad question.) It solely depends 
+# on what you want it to output.
+
+# What kind of things can you pass into methods as arguments?
+
+# Just about anything. Functions, objects, strings, numbers, lists, hashes, etc.
+
+# How can you pass information between methods?
+
+# By having one method's output equal another method's input.
+
+# What concepts were solidified in this challenge, and what concepts are still confusing?
+
+# Are hashes ordered? If so, have they always been for Ruby?

@@ -51,13 +51,15 @@ def mode(array)
   array.each do |element|
     freq[element] += 1
   end
-  
+  p freq
   # Highest freq will return max value in freq hash
   highest_freq = freq.values.max
   # The select method only retains the pairs that have values that equal the highest freq
   p freq.select! {|k,v| v == highest_freq}.keys
   
 end
+
+mode([1,2,3,4,4,5])
 
 # 4. Reflection
 =begin

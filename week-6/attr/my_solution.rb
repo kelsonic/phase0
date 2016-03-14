@@ -9,6 +9,13 @@
 # Input: 
 # Output:
 # Steps:
+# Create NameData class and give reading/writing rights to :name key.
+# Create init method that asks for your name.
+# End class.
+
+# Create Greetings class.
+# Create init method that makes a name instance variable equal to a new instance of NameData.
+# Create a hello instance method that prints a greeting with the user's name.
 
 class NameData
   attr_accessor :name

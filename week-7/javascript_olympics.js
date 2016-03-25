@@ -70,8 +70,20 @@
 // console.log(michaelPhelps.name + " " + michaelPhelps.sport + " " + michaelPhelps.quote)
 
 
-
-
-
-
 // Reflection
+// What JavaScript knowledge did you solidify in this challenge?
+
+// This challenge taught me more about how to use the for loop in JS. I learned that instead of comparing i 
+// to an array.length, it's better to assign array.length to j (for example) and compare j 
+// and i instead.
+
+// What are constructor functions?
+
+// They seem to be functions that take in various inputs and return instance variables for that function.
+// They also seem to operate very similarly to Ruby classes.
+
+// How are constructors different from Ruby classes (in your research)?
+
+// Having a good understanding of constructors is crucial to truly understand the 
+// JavaScript language. Unlike many other languages, JavaScript doesn't support 
+// classes, but it has constructors to bring similar functionality to JavaScript.

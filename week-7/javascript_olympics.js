@@ -4,12 +4,6 @@
 
 // This challenge took me [1.5] hours.
 
-
-// Warm Up
-
-
-
-
 // Bulk Up
 //  var addWin = function(athletes) {
 //  	for (i in athletes){

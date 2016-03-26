@@ -125,7 +125,7 @@ chessBoard(8);
 
 // Complete the minimum exercise in the eloquent.js file.
 
-// Completed.
+// Completed below.
 
 // Ch. 4: Data Structures: Objects and Arrays
 // Skip the sections on the Lycanthrope's log, Computing Correlations, and 
@@ -136,33 +136,54 @@ chessBoard(8);
 // What is the difference between using a dot and a bracket to look up a property? 
 // Ex. array.max vs array["max"]
 
-// Answer
+// When using a dot, the part after the dot must be a valid variable name, and it 
+// directly names the property. When using square brackets, the expression between 
+// the brackets is evaluated to get the property name. Whereas value.x fetches the 
+// property of value named “x”, value[x] tries to evaluate the expression x and uses 
+// the result as the property name.
 
 // Create an object called me that stores your name, age, three favorite foods, 
 // and a quirk in your eloquent.js file.
 
-// Answer
+var me = {
+	name: "Kelson",
+	age: 23,
+	food1: "Curry",
+	food2: "Soup",
+	food3: "Rice",
+	quirk: "Love scuba diving"
+}
 
 // What is a JavaScript object with a name and value property similar to in Ruby?
 
-// Answer
-
+// A hash.
 
 // Program Structure
 // Write your own variable and do something to it.
 
-
-
+// Completed above.
 
 // Complete one of the exercises: Looping a Triangle, FizzBuzz, or Chess Board
 
-
-
-// Functions
+// Completed above.
 
 // Complete the `minimum` exercise.
 
-
+var min = function(num1, num2) {
+	if (!num1.isNumber || !num2.isNumber) {
+		console.log("Pass in numbers as arguments, please.");
+	} else {
+		if (num1 > num2) {
+			return num2;
+		} else if (num1 < num2) {
+			return num1;
+		} else {
+			return num1;
+		}
+	};
+};
 
 // Data Structures: Objects and Arrays
 // Create an object called "me" that stores your name, age, 3 favorite foods, and a quirk below.
+
+// Completed above.

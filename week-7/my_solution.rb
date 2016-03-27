@@ -4,7 +4,8 @@
 # We spent [#] hours on this challenge.
 
 # EXPLANATION OF require_relative
-# Require relative is used with files within the same directory whereas require is used with external files or files that need to have an absolute path.
+# Require relative is used with files within the same directory whereas require 
+# is used with external files or files that need to have an absolute path.
 #
 require_relative 'state_data'
 
@@ -94,3 +95,25 @@ end
 
 #=======================================================================
 # Reflection Section
+=begin
+What are the differences between the two different hash syntaxes shown in the state_data file?
+
+The first hash has strings as its keys whereas the nested hash uses sybmols as its keys.
+
+What does require_relative do? How is it different from require?
+
+require_relative is used with files within the same directory whereas require is 
+used with external files or files that need to have an absolute path.
+
+What are some ways to iterate through a hash?
+
+By using the .each loop followed by |key, value| in pipes. In Ruby >=1.8, the contents 
+of the hash will be iterated in random order whereas in Ruby <1.8 the contents will 
+be iterated in order.
+
+What concept did you most solidify in this challenge?
+
+That symbols are called 'symbols', not 'keys' (I confused the naming on accident and 
+thought the word 'keys' had a double definition in Ruby).
+
+=end

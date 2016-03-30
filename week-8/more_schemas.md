@@ -1,4 +1,4 @@
-![one-to-one relationship](/imgs/one-to-one.png)
+![one-to-one relationship](one-to-one.png)
 
 The heart table has one body, and a body has one heart. A body cannot have more 
 than one heart (unless it's a special type of body), and a heart cannot have more 

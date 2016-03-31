@@ -106,8 +106,20 @@ var average = function(array){
 // Reflect
 /*
 What did you learn about adding functions to objects?
+
+I knew how to do this but it became much easier to do it with this practice challenge. 
+Adding functions to objects is very useful, as it will give our objects verbs to work 
+with in a sense.
+
 How did you iterate over nested arrays in JavaScript?
+
+By using its index. That is how we accessed the values in the scores variable.
+
 Were there any new methods you were able to incorporate? If so, what were they and how did they work?
+
+We used .push, which I had used previously in Ruby but never in JavaScript, and it seems 
+to do the same thing (adding a value to the end of an array).
+
 */
 
 // __________________________________________

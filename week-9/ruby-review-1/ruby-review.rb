@@ -61,18 +61,6 @@ class PezDispenser
 	end
 end
 
-# bob = PezUser.new
-# bob.add_pez('orange', 'lemon', 'rasperry', 'grape', 'cherry', 'strawberry')
-# bob.see_all_pez
-
-
-# Refactored Solution
-
-
-
-
-
-
 # DRIVER TESTS GO BELOW THIS LINE
 
 flavors = %w(cherry chocolate cola grape lemon orange peppermint raspberry strawberry).shuffle
@@ -87,7 +75,4 @@ puts "Oh, you want one do you?"
 puts "The pez flavor you got is: #{super_mario.get_pez}"
 puts "Now you have #{super_mario.pez_count} pez!"
 
-
-
-
-# Reflection
+# Reflection at /ruby-review-2/ruby-review.rb

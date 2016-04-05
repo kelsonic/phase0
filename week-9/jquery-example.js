@@ -2,7 +2,7 @@
 
 
 // I worked on this challenge [by myself, with: ].
-// This challenge took me [#] hours.
+// This challenge took me [>1] hours.
 
 $(document).ready(function(){
   //RELEASE 1:
@@ -35,3 +35,22 @@ $(document).ready(function(){
    });
   });
 });
+
+// Reflection
+/*
+What is jQuery?
+
+jQuery seems to be a JavaScript framework that will shorten the amount of lines developers 
+use to write code. However, it does seem to be a bit slower than if you were to just use 
+JavaScript without a framework.
+
+What does jQuery do for you?
+
+jQuery has numerous methods and features that allow you to manipulate web objects.
+
+What did you learn about the DOM while working on this challenge?
+
+The DOM is incredibly useful. You can even print the funtions a webpage has to see their 
+contents and how they are built -- a security risk for sure!
+
+*/
